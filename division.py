@@ -1,10 +1,8 @@
+a = int(input())
+b = int(input())
 
-a = 3
-b = 5
+# Integer division
+print(a // b)
 
-
-int_div = a // b
-print(f"{a} // {b} = {int_div}")  
-
-float_div = a / b
-print(f"{a} / {b} = {float_div}")  
+# Float division
+print(a / b)
